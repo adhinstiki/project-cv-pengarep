@@ -527,4 +527,53 @@ button {
     
     
   }
+
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.section-text-container {
+    max-width: 50%; /* Limit text container width */
+    margin-right: 2rem;
+}
+
+.section-text {
+    margin-bottom: 2rem;
+}
+
+.section-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; /* Align images to the left */
+    align-items: center; /* Align images vertically to the center */
+}
+
+.section-image img {
+    max-width: 100%; /* Make sure images are responsive */
+    height: auto;
+    margin-right: 15px; /* Add space between images */
+    border-radius: 12px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.section-image img:hover {
+    transform: scale(1.05); /* Scale up image slightly on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Bigger shadow on hover */
+}
+
+.section-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.section-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
   
