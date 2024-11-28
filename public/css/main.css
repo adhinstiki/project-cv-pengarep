@@ -576,4 +576,106 @@ button {
     line-height: 1.5;
     color: #555;
 }
-  
+/* Footer Styling */
+footer {
+    background-color: #000000;  /* Mengubah latar belakang menjadi hitam */
+    color: white;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-left h4, .footer-center h4, .footer-right h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-left p, .footer-center p, .footer-right p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-center ul li {
+    margin-bottom: 10px;
+}
+
+.footer-center ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-center ul li a:hover {
+    color: #f39c12;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-right ul li {
+    margin-bottom: 10px;
+}
+
+.footer-right ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-right ul li a:hover {
+    color: #f39c12;
+}
+
+/* Footer Bottom Styling */
+.footer-bottom {
+    background-color: #000000;  /* Mengubah latar belakang footer bawah menjadi hitam */
+    color: #ddd;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom-left, .footer-bottom-right {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.footer-bottom-right {
+    text-align: right;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bottom ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.footer-bottom ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-bottom ul li a:hover {
+    color: #f39c12;
+}
