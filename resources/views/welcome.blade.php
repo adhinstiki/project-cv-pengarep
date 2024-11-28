@@ -300,7 +300,7 @@
                 <p class="section-description">Decoral is one of the most popular choices for those who want to explore the latest trends in interior design. Our modern design solutions help you create a space that is both functional and aesthetically pleasing.</p>
             </div>
             <div class="section-image">
-                <img src="{{ asset('images/rui1.jpg') }}" alt="Design Image 1">
+                <img src="{{ asset('assets/images/rui1.jpg') }}" alt="Design Image 1">
             </div>
         </div>
 
@@ -311,7 +311,7 @@
                 <p class="section-description">Our expert team of designers is dedicated to bringing your vision to life. We work closely with you to understand your needs and deliver a personalized design that fits your style.</p>
             </div>
             <div class="section-image">
-                <img src="{{ asset('images/rui2.jpg') }}" alt="Design Image 2">
+                <img src="{{ asset('assets/images/rui2.jpg') }}" alt="Design Image 2">
             </div>
         </div>
 
@@ -322,7 +322,7 @@
                 <p class="section-description">We use only the best materials to ensure durability and style. From furniture to accessories, everything is carefully selected to provide the highest quality at the best prices.</p>
             </div>
             <div class="section-image">
-                <img src="{{ asset('images/rui3.jpg') }}" alt="Design Image 3">
+                <img src="{{ asset('assets/images/rui3.jpg') }}" alt="Design Image 3">
             </div>
         </div>
     </div>
@@ -334,7 +334,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card">
-                    <img src="{{ asset('images/team-member1.jpg') }}" alt="Team Member 1" class="card-img-top" style="height: 200px; object-fit: cover;">
+                    <img src="{{ asset('assets/images/team-member1.jpg') }}" alt="Team Member 1" class="card-img-top" style="height: 200px; object-fit: cover;">
                     <div class="card-body">
                         <h5 class="card-title">Adhi Purnawan</h5>
                         <p class="card-text">Software Engineer</p>
@@ -343,7 +343,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="{{ asset('images/team-member2.jpg') }}" alt="Team Member 2" class="card-img-top" style="height: 200px; object-fit: cover;">
+                    <img src="{{ asset('assets/images/team-member2.jpg') }}" alt="Team Member 2" class="card-img-top" style="height: 200px; object-fit: cover;">
                     <div class="card-body">
                         <h5 class="card-title">Erdy Erisa</h5>
                         <p class="card-text">Project Manager</p>
@@ -352,7 +352,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="{{ asset('images/team-member3.jpg') }}" alt="Team Member 3" class="card-img-top" style="height: 200px; object-fit: cover;">
+                    <img src="{{ asset('assets/images/team-member3.jpg') }}" alt="Team Member 3" class="card-img-top" style="height: 200px; object-fit: cover;">
                     <div class="card-body">
                         <h5 class="card-title">Carl Aris</h5>
                         <p class="card-text">Web Developer</p>
