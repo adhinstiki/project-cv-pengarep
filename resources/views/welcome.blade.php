@@ -291,12 +291,17 @@
         </div>
     </div>
     <!-- OUR PROJECT -->
-    <!--Tambahan -->
+    
+    <!--BENEFIT -->
     <div class="container">
         <!-- Modern Design Section -->
+        <div class="container section-title" id="ourProject">
+            <h2>Why Choose Us</h2>
+            <h1>Why Choose CV Pengarep</h1>
+        </div>
         <div class="section">
             <div class="section-text-container">
-                <h2 class="section-title">Modern Design</h2>
+                <h2 class="section-title-text">Modern Design</h2>
                 <p class="section-description">Decoral is one of the most popular choices for those who want to explore the latest trends in interior design. Our modern design solutions help you create a space that is both functional and aesthetically pleasing.</p>
             </div>
             <div class="section-image">
@@ -307,7 +312,7 @@
         <!-- Expert Team Section -->
         <div class="section">
             <div class="section-text-container">
-                <h2 class="section-title">Expert Team</h2>
+                <h2 class="section-title-text">Expert Team</h2>
                 <p class="section-description">Our expert team of designers is dedicated to bringing your vision to life. We work closely with you to understand your needs and deliver a personalized design that fits your style.</p>
             </div>
             <div class="section-image">
@@ -318,7 +323,7 @@
         <!-- High-Quality Materials Section -->
         <div class="section">
             <div class="section-text-container">
-                <h2 class="section-title">High-Quality Materials</h2>
+                <h2 class="section-title-text">High-Quality Materials</h2>
                 <p class="section-description">We use only the best materials to ensure durability and style. From furniture to accessories, everything is carefully selected to provide the highest quality at the best prices.</p>
             </div>
             <div class="section-image">
@@ -326,11 +331,14 @@
             </div>
         </div>
     </div>
+    <!--BENEFIT -->
 
+    <!-- OUR TEAM -->
     <div class="container my-5">
-    <h1 class="text-center display-4 mb-5">Our Team</h1>
-        <h1 class="text-center display-4 mb-5">Meet Our Highly Professional Team</h1>
-        
+        <div class="container section-title" id="ourProject">
+            <h2>Our Team</h2>
+            <h1>Meet Our Highly Professional Team</h1>
+        </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card">
@@ -361,53 +369,49 @@
             </div>
         </div>
     </div>
+    <!-- OUR TEAM -->
 
+    <!-- FOOTER -->
     <footer>
         <div class="footer-container">
             <!-- Left side of the footer -->
-            <div class="footer-left">
-                <h4>Interior Design Consultancy</h4>
-                <p>Bringing sensitivity to the design of top restaurants, hotels, and more.</p>
-            </div>
-
-            <!-- Center section of the footer -->
-            <div class="footer-center">
-                <h4>Useful Links</h4>
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Customer Insights</a></li>
-                    <li><a href="#">Meet Our Team</a></li>
-                    <li><a href="#">Client Testimonials</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Before & After</a></li>
-                </ul>
-            </div>
-
-            <!-- Right section of the footer -->
-            <div class="footer-right">
-                <h4>Contact Us</h4>
-                <p>Phone: +888 (123) 869523</p>
-                <p>Email: <a href="mailto:example@gmail.com">example@gmail.com</a></p>
-                <p>Location: 1058 Helton Ave, Berlin</p>
-            </div>
+             <div class="row">
+                 <div class="col-lg-4 col-md-4 col-sm-12 footer-left">
+                     <h4>Interior Design Consultancy</h4>
+                     <p>Bringing sensitivity to the design of top restaurants, hotels, and more.</p>
+                 </div>
+     
+                 <!-- Center section of the footer -->
+                 <div class="col-lg-4 col-md-4 col-sm-12  footer-center">
+                     <h4>Useful Links</h4>
+                     <ul>
+                         <li><a href="#">About Us</a></li>
+                         <li><a href="#">Customer Insights</a></li>
+                         <li><a href="#">Meet Our Team</a></li>
+                         <li><a href="#">Client Testimonials</a></li>
+                         <li><a href="#">Privacy Policy</a></li>
+                         <li><a href="#">Before & After</a></li>
+                     </ul>
+                 </div>
+     
+                 <!-- Right section of the footer -->
+                 <div class="col-lg-4 col-md-4 col-sm-12 footer-right">
+                     <h4>Contact Us</h4>
+                     <p>Phone: +888 (123) 869523</p>
+                     <p>Email: <a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                     <p>Location: 1058 Helton Ave, Berlin</p>
+                 </div>
+             </div>
         </div>
-
-        <!-- Additional footer content (Copyright and Links) -->
         <div class="footer-bottom">
             <div class="footer-container">
                 <div class="footer-bottom-left">
-                    <p>Copyright © 2024 by CV PANGAREP. All Rights Reserved.</p>
-                </div>
-                <div class="footer-bottom-right">
-                    <ul>
-                        <li><a href="#">Privacy & Policy</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Media Centre</a></li>
-                    </ul>
+                    <p>Copyright ©2024 by CV Pengarep. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- FOOTER -->
 
     <!-- JS BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
