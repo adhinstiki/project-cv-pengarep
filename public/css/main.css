@@ -335,7 +335,7 @@ button {
 .section-title {
     text-align: center;
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 5rem !important;
 }
 
 .section-title h2 {
@@ -527,6 +527,7 @@ button {
     
     
   }
+<<<<<<< Updated upstream
 
   .section {
     display: flex;
@@ -679,3 +680,5 @@ footer {
 .footer-bottom ul li a:hover {
     color: #f39c12;
 }
+=======
+>>>>>>> Stashed changes
