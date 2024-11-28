@@ -23,7 +23,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg">
         <div class="container navbar-container my-3">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#home">
                 <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" class="d-inline-block align-text-top">
             </a>
             <button id="btnToggle" class="btn-toggle">
@@ -33,19 +33,25 @@
             <div class="navbar-nav-wrapper justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shop.html">About Us</a>
+                        <a class="nav-link" href="#aboutUs">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Our Service</a>
+                        <a class="nav-link" href="#ourService">Our Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="about.html">Our Project</a>
+                        <a class="nav-link" aria-current="page" href="#ourProject">Our Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Our Team</a>
+                        <a class="nav-link" href="#ourTeam">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="benefit">Benefit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactUs">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +103,7 @@
     <!-- NAVBAR -->
 
     <!-- HERO SECTION -->
-    <div class="container-fluid hero-container" style="background-image: url('{{ asset('assets/images/banner-1.jpg')  }}');">
+    <div class="container-fluid hero-container" id="home" style="background-image: url('{{ asset('assets/images/banner-1.jpg')  }}');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-12 col-sm-12">
@@ -112,7 +118,7 @@
     <!-- HERO SECTION -->
 
     <!-- ABOUT US -->
-     <div class="container about-us-section">
+     <div class="container about-us-section" id="aboutUs">
         <div class="row">
             <div class="col-lg-5 col-md-12 col-sm-12">
                 <div class="about-us-cover">
@@ -167,76 +173,76 @@
     <!-- ABOUT US -->
 
     <!-- OUR SERVICES -->
-    <div class="container section-title">
+    <div class="container section-title" id="ourService">
         <h2>What We Do</h2>
         <h1>The best Services We Provide</h1>
     </div>
     <div class="container-fluid service-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12" style="border-bottom: 1px solid var(--grey-outline);">
+                <div class="col-lg-4 col-md-6 col-sm-12 service-list" style="border-bottom: 1px solid var(--grey-outline);">
                     <div class="service-list-item">
                         <div class="icon">
-                            <img class="icon-img" src="{{ asset('assets/images/icon.png') }}" alt="">
+                            <img class="icon-img" src="{{ asset('assets/images/icon-1.png') }}" alt="">
                         </div>
                         <div class="service-text">
                             <h1>Home Interior Design</h1>
-                            <p>Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
+                            <p>Creating stylish and functional interior spaces tailored to your needs, enhancing comfort and aesthetics.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12" style="border: 1px solid var(--grey-outline); border-top: 0;">
+                <div class="col-lg-4 col-md-6 col-sm-12 service-list" style="border: 1px solid var(--grey-outline); border-top: 0;">
                     <div class="service-list-item">
                         <div class="icon">
-                            <img class="icon-img" src="{{ asset('assets/images/icon.png') }}" alt="">
+                            <img class="icon-img" src="{{ asset('assets/images/icon-2.png') }}" alt="">
                         </div>
                         <div class="service-text">
-                            <h1>Home Interior Design</h1>
-                            <p>Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
+                            <h1>Home Exterior Design</h1>
+                            <p>Designing the exterior of your home to reflect your personal style while ensuring durability and curb appeal.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12" style="border-bottom: 1px solid var(--grey-outline);">
+                <div class="col-lg-4 col-md-6 col-sm-12 service-list" style="border-bottom: 1px solid var(--grey-outline);">
                     <div class="service-list-item">
                         <div class="icon">
-                            <img class="icon-img" src="{{ asset('assets/images/icon.png') }}" alt="">
+                            <img class="icon-img" src="{{ asset('assets/images/icon-3.png') }}" alt="">
                         </div>
                         <div class="service-text">
-                            <h1>Home Interior Design</h1>
-                            <p>Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
+                            <h1>2D/3D Design Layout</h1>
+                            <p>Providing detailed 2D and 3D layout designs that visualize your space in a realistic and practical way.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12 service-list">
                     <div class="service-list-item">
                         <div class="icon">
-                            <img class="icon-img" src="{{ asset('assets/images/icon.png') }}" alt="">
+                            <img class="icon-img" src="{{ asset('assets/images/icon-4.png') }}" alt="">
                         </div>
                         <div class="service-text">
-                            <h1>Home Interior Design</h1>
-                            <p>Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
+                            <h1>Furniture's Design</h1>
+                            <p>Designing custom furniture pieces that fit perfectly with your interior, combining style and functionality.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12" style="border: 1px solid var(--grey-outline); border-top: 0; border-bottom: 0;">
+                <div class="col-lg-4 col-md-6 col-sm-12 service-list" style="border: 1px solid var(--grey-outline); border-top: 0; border-bottom: 0;">
                     <div class="service-list-item">
                         <div class="icon">
-                            <img class="icon-img" src="{{ asset('assets/images/icon.png') }}" alt="">
+                            <img class="icon-img" src="{{ asset('assets/images/icon-5.png') }}" alt="">
                         </div>
                         <div class="service-text">
-                            <h1>Home Interior Design</h1>
-                            <p>Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
+                            <h1>Modern Home Interior</h1>
+                            <p>Designing contemporary interiors with sleek, minimalistic elements and cutting-edge styles for a modern living experience.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12 service-list">
                     <div class="service-list-item">
                         <div class="icon">
-                            <img class="icon-img" src="{{ asset('assets/images/icon.png') }}" alt="">
+                            <img class="icon-img" src="{{ asset('assets/images/icon-6.png') }}" alt="">
                         </div>
                         <div class="service-text">
-                            <h1>Home Interior Design</h1>
-                            <p>Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
+                            <h1>Custom Design Plan</h1>
+                            <p>Offering personalized design plans to transform your space according to your unique preferences and lifestyle.</p>
                         </div>
                     </div>
                 </div>
@@ -246,7 +252,7 @@
     <!-- OUR SERVICES -->
 
     <!-- OUR PROJECT -->
-    <div class="container section-title">
+    <div class="container section-title" id="ourProject">
         <h2>Latest Projects</h2>
         <h1>Our Projects & Designs</h1>
     </div>
@@ -255,37 +261,37 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="project-list-item">
                     <div class="project-cover">
-                        <img class="project-img w-100" src="{{ asset('assets/images/latest-project-4.jpg') }}" alt="Project Image">
+                        <img class="project-img w-100" src="{{ asset('assets/images/project-1.jpg') }}" alt="Project Image">
                     </div>
-                    <h1>D-Orex Home Interior</h1>
-                    <p>Artima is one of the most popular for</p>
+                    <h1>Modern Family House Decor</h1>
+                    <p>Comfortable, functional city home redesign.</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="project-list-item">
                     <div class="project-cover">
-                        <img class="project-img w-100" src="{{ asset('assets/images/latest-project-4.jpg') }}" alt="Project Image">
+                        <img class="project-img w-100" src="{{ asset('assets/images/project-2.jpg') }}" alt="Project Image">
                     </div>
-                    <h1>D-Orex Home Interior</h1>
-                    <p>Artima is one of the most popular for</p>
+                    <h1>Urban Luxury Residence Design</h1>
+                    <p>Chic, modern home with style.</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="project-list-item">
                     <div class="project-cover">
-                        <img class="project-img w-100" src="{{ asset('assets/images/latest-project-4.jpg') }}" alt="Project Image">
+                        <img class="project-img w-100" src="{{ asset('assets/images/project-3.jpg') }}" alt="Project Image">
                     </div>
-                    <h1>D-Orex Home Interior</h1>
-                    <p>Artima is one of the most popular for</p>
+                    <h1>Contemporary City Home Interior</h1>
+                    <p>Sleek, minimalist urban living space.r</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="project-list-item">
                     <div class="project-cover">
-                        <img class="project-img w-100" src="{{ asset('assets/images/latest-project-4.jpg') }}" alt="Project Image">
+                        <img class="project-img w-100" src="{{ asset('assets/images/project-4.jpg') }}" alt="Project Image">
                     </div>
-                    <h1>D-Orex Home Interior</h1>
-                    <p>Artima is one of the most popular for</p>
+                    <h1>Downtown Private Home Renovation</h1>
+                    <p>Elegant design with urban flair.r</p>
                 </div>
             </div>
         </div>
@@ -370,6 +376,37 @@
         </div>
     </div>
     <!-- OUR TEAM -->
+
+    <!-- CONTACT US -->
+    <div class="container contact-section" id="ourProject">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h1>Get in touchs</h1>
+                <p>Select layout follower boolean editor flows. Scrolling variant move font group variant layout device share.</p>     
+                <form action="/submit-form" method="post" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="number" name="number" placeholder="Number" pattern="[0-9]+" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Type your message here..." rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT US -->
 
     <!-- FOOTER -->
     <footer>
