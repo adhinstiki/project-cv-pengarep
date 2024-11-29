@@ -391,7 +391,7 @@
                         <input type="email" id="email" name="email" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" id="number" name="number" placeholder="Number" pattern="[0-9]+" required>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone" pattern="[0-9]+" required>
                     </div>
                     <div class="form-group">
                         <input type="text" id="subject" name="subject" placeholder="Subject" required>
